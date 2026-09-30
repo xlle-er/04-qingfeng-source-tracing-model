@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "target_station": "前门",
+  "context_stations": [
+    "天坛",
+    "永定门内"
+  ],
+  "feature_columns": [
+    "pm25",
+    "pm25_天坛",
+    "pm25_永定门内"
+  ],
+  "history_hours": 24,
+  "forecast_hours": 6,
+  "timezone": "Asia/Shanghai",
+  "selected_model": "persistence",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "units": {
+    "pm25": "ug/m3",
+    "pm10": "ug/m3",
+    "so2": "ug/m3",
+    "no2": "ug/m3",
+    "co": "mg/m3",
+    "o3": "ug/m3"
+  },
+  "scope": "conditional neighborhood-scale concentration forecast, not sub-km street network or verified attribution",
+  "model_dir": "models"
+}

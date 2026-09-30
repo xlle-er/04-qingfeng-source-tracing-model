@@ -1,0 +1,61 @@
+{
+  "dataset_name": "A-H匿名区域小尺度空气污染机制数据集",
+  "version": "1.0.0",
+  "generated_at": "2026-08-05T11:34:38.421903+08:00",
+  "simulation_only": true,
+  "competition_claim_allowed": false,
+  "warning": "仅用于合成数据算法验证，不可替代真实案例或真实人工标注评估。",
+  "config": {
+    "start": "2026-01-01 00:00:00",
+    "days": 90,
+    "frequency_minutes": 10,
+    "event_count": 144,
+    "seed": 20260726,
+    "center_lat": 30.0,
+    "center_lon": 120.0,
+    "timezone": "Asia/Shanghai",
+    "output_dir": "data/simulated/v1"
+  },
+  "pollutants": {
+    "pm25": "μg/m³",
+    "pm10": "μg/m³",
+    "so2": "μg/m³",
+    "no2": "μg/m³",
+    "co": "mg/m³",
+    "o3": "μg/m³"
+  },
+  "cause_classes": [
+    "工业排放",
+    "机动车尾气",
+    "扬尘",
+    "燃烧源",
+    "二次生成",
+    "气象累积"
+  ],
+  "row_counts": {
+    "stations": 8,
+    "sources": 12,
+    "weather": 2160,
+    "source_activity": 155520,
+    "air_quality": 103680,
+    "events": 144,
+    "source_contribution_truth": 39900,
+    "model_input_hourly": 2160
+  },
+  "files": {
+    "stations": "stations.csv",
+    "sources": "sources.csv",
+    "events": "events.csv",
+    "weather": "weather.csv.gz",
+    "source_activity": "source_activity.csv.gz",
+    "air_quality": "air_quality.csv.gz",
+    "source_contribution_truth": "source_contribution_truth.csv.gz",
+    "model_input_hourly": "model_input_hourly.csv.gz"
+  },
+  "provenance": {
+    "generator": "src.data.synthetic_dataset.SyntheticAirDatasetBuilder",
+    "random_seed": 20260726,
+    "coordinate_reference": "WGS84 synthetic offsets around configured receptor",
+    "time_semantics": "local naive timestamps; timezone=Asia/Shanghai"
+  }
+}

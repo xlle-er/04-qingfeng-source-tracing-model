@@ -1,0 +1,13 @@
+source_id,source_name,cause_type,east_km,north_km,geometry_type,stack_height_m,base_pm25,base_pm10,base_so2,base_no2,base_co,base_o3,lat,lon,emission_rate_semantics,is_simulated
+SRC_IND_01,虚拟工业源A,工业排放,-2.1,1.4,point,35,2.0,2.8,7.5,5.5,1.2,0.0,30.0126612042614,119.97821711165471,synthetic_relative_kg_per_hour,True
+SRC_IND_02,虚拟工业源B,工业排放,1.8,1.6,point,25,1.4,2.0,4.2,3.8,0.9,0.0,30.014469947727314,120.01867104715309,synthetic_relative_kg_per_hour,True
+SRC_TRA_01,虚拟道路东段,机动车尾气,1.2,0.1,line_proxy,0,0.8,1.1,0.1,4.5,3.5,0.0,30.000904371732958,120.01244736476873,synthetic_relative_kg_per_hour,True
+SRC_TRA_02,虚拟道路西段,机动车尾气,-1.1,-0.1,line_proxy,0,0.7,1.0,0.1,4.0,3.1,0.0,29.999095628267042,119.98858991562867,synthetic_relative_kg_per_hour,True
+SRC_DUST_01,虚拟施工场地A,扬尘,1.5,1.0,area_proxy,0,2.0,9.0,0.0,0.5,0.2,0.0,30.009043717329572,120.01555920596091,synthetic_relative_kg_per_hour,True
+SRC_DUST_02,虚拟施工场地B,扬尘,-1.4,0.8,area_proxy,0,1.7,7.5,0.0,0.4,0.2,0.0,30.007234973863657,119.98547807443649,synthetic_relative_kg_per_hour,True
+SRC_COM_01,虚拟燃烧源A,燃烧源,-1.2,-1.5,point,18,3.0,3.8,3.2,3.0,4.2,0.0,29.986434424005644,119.98755263523127,synthetic_relative_kg_per_hour,True
+SRC_COM_02,虚拟燃烧源B,燃烧源,1.0,-1.6,point,15,2.4,3.1,2.3,2.5,3.5,0.0,29.985530052272686,120.01037280397394,synthetic_relative_kg_per_hour,True
+SRC_SEC_01,虚拟区域二次生成区,二次生成,-2.4,0.1,area_proxy,0,1.8,2.1,0.4,1.6,0.4,5.5,30.000904371732958,119.97510527046254,synthetic_relative_kg_per_hour,True
+SRC_SEC_02,虚拟区域二次生成区B,二次生成,2.3,-0.4,area_proxy,0,1.5,1.8,0.3,1.4,0.3,4.8,29.99638251306817,120.02385744914007,synthetic_relative_kg_per_hour,True
+SRC_MET_01,虚拟区域背景源,气象累积,-0.2,2.7,regional_proxy,0,2.2,3.0,0.8,2.0,1.0,1.0,30.024418036789843,119.99792543920522,synthetic_relative_kg_per_hour,True
+SRC_MET_02,虚拟区域背景源B,气象累积,0.5,-2.7,regional_proxy,0,1.8,2.5,0.6,1.7,0.8,0.8,29.975581963210157,120.00518640198698,synthetic_relative_kg_per_hour,True

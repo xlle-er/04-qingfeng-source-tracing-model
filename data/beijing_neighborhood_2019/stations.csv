@@ -1,0 +1,4 @@
+station,监测点全称,longitude,latitude,station_type
+前门,前门东大街，前门交通点,116.395,39.899,traffic
+天坛,东城天坛,116.407,39.886,urban_environment
+永定门内,永定门内大街，永定门交通点,116.394,39.876,traffic

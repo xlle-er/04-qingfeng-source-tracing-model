@@ -1,0 +1,11 @@
+name: air-pollution
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch>=2.0.0
+  - pandas>=2.0.0
+  - numpy>=1.24.0
+  - matplotlib>=3.7.0

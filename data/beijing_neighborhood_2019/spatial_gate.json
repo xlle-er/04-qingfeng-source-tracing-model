@@ -1,0 +1,17 @@
+{
+  "old_table_sha256": "39c686e6a636f75417420108fba99f6411fd9ab590b2f17497135670ab6b5696",
+  "new_table_sha256": "4a7a13d657e40f42c6bf8a39d0f9e0264a28aff6231d21e8d3e4cdb8825f83cf",
+  "new_table_matches_prior_mirror": true,
+  "stations": [
+    "前门",
+    "天坛",
+    "永定门内"
+  ],
+  "diameter_km": 2.558909642819469,
+  "triangle_area_km2": 1.3709120828663361,
+  "geometry_selection": "smallest maximum pair distance among 6545 old-network triples, before inspecting model scores",
+  "scope": "conditional neighborhood-scale concentration forecast, not sub-km street network or verified attribution",
+  "coordinate_datum": "unspecified by supplied source",
+  "coordinate_history": "old version matched by station name and pre-change dates; no independent relocation audit",
+  "source": "User-supplied files downloaded from Quotsoft station-list share"
+}
